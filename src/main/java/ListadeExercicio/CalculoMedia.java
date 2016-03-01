@@ -29,7 +29,6 @@ public class CalculoMedia {
 	            	System.out.println("A media aritmetica é de: "+mediaHarmonica);
 	            case 2:
 	                System.out.println("MÉDIA PONDERADA");
-	            	System.out.println("MÉDIA ARITMETICA");
 	            	System.out.println("Informe a P1");
 	            	int p1 = entrada.nextInt();
 	            	System.out.println("Informe a P2");
@@ -41,7 +40,7 @@ public class CalculoMedia {
 
 	            case 1:
 
-				int medAritmetica = (n1 + n1 + n3) /3;
+				int medAritmetica = (n1 + n2 + n3) /3;
 	            	System.out.println("A media aritmetica é de: "+medAritmetica);
 	            	
 	            default:
