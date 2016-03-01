@@ -18,10 +18,10 @@ public class NonaQuestao {
 		n3 = entrada.nextFloat();
 		
 		int opcao;
-		switch opcao{
-		case 1:
-			
-		}
+//		switch opcao{
+//		case 1:
+//			
+//		}
 	}
 	
 }
