@@ -17,8 +17,8 @@ public class CalculoMedia {
 	        
 	        System.out.println("Dada opção,");
 	        System.out.println("1 - Media aritmetica");
-	        System.out.println("2 - Media harmonica");
-	        System.out.println("3 - Media ponderada");
+	        System.out.println("2 - Media ponderada");
+	        System.out.println("3 - Media harmonica");
 	        opcaoEscolha = (int) entrada.nextFloat();
 	        
 	        switch( opcaoEscolha )

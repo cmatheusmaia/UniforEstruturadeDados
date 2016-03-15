@@ -3,16 +3,17 @@ package Trabalho;
 import java.util.Scanner;
 
 public class Questao02 {
+	public static void main (String...arg){
 	Scanner entrada = new Scanner(System.in);
 	int valorMetros;
 	
-	System.out.println("Informe o valor em Metros");
-	System.out.println("1 - Quilômetro (KM)");
-	System.out.println("2 - Hectômetro (HM)");
-	System.out.println("3 - Decâmetro (DAM)");
-	System.out.println("4 - Decimetro (DM)");
-	System.out.println("5 - Centimetro (CM)");
-	System.out.println("6 - Milímetro (MM)");
+//	System.out.println("Informe o valor em Metros");
+//	System.out.println("1 - Quilômetro (KM)");
+//	System.out.println("2 - Hectômetro (HM)");
+//	System.out.println("3 - Decâmetro (DAM)");
+//	System.out.println("4 - Decimetro (DM)");
+//	System.out.println("5 - Centimetro (CM)");
+//	System.out.println("6 - Milímetro (MM)");
 	valorMetros = entrada.nextInt();
 	
 	int opcao;
