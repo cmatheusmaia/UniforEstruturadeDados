@@ -1,5 +1,7 @@
 package AulaPresencial;
 
+import java.util.Scanner;
+
 public class Repeticao {
 	
 	public static void main (String...arg){

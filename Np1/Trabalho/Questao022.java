@@ -28,20 +28,20 @@ public class Questao022 {
 			x = ((a + b)/2 * (c+d));
 			System.out.println(x);
 		}
-		
-		if ((a = 2 || (b < 7)){
-			x = (a + 2 ) * (b - 2);
-			System.out.println(x);
-		} else {
-			x = (( a + b )/ d * (c+d));
-		}
-		
-		if (!((a > 2) || ( b < 7)){
-			x = a + b -2;
-			System.out.println(x);
-		} else {
-			x = a - b;
-			System.out.println(x);
-		}
+//		
+//		if ((a = 2 ) && (b < 7)){
+//			x = (a + 2 ) * (b - 2);
+//			System.out.println(x);
+//		} else {
+//			x = (( a + b )/ d * (c+d));
+//		}
+//		
+//		if (!((a > 2) || ( b < 7)){
+//			x = a + b -2;
+//			System.out.println(x);
+//		} else {
+//			x = a - b;
+//			System.out.println(x);
+//		}
 	}
 }
