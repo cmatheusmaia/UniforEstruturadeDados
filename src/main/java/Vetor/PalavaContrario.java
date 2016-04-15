@@ -1,4 +1,4 @@
-package ExercicioAula;
+package Vetor;
 
 import java.util.Scanner;
 
