@@ -1,0 +1,23 @@
+1 -verificar se uma palavra é palíndroma
+
+2- solicita 2 palavras como entrada e verificar se são iguais
+
+3- solicitar como entrada duas palavras e comentar a 1°, com a 2° em uma outra string
+
+ex: 
+p1 = dia
+p2 = ensolarada
+p3 = dia ensolarado
+
+4 - solicitar um texto como entrada e mostrar como resultado o texto com todas as palavras iniciadas por letras maiusculas e as demais minusculas
+ex:
+
+p1 = "aula de estruturas";
+saida= "Aula De Estruturas";
+
+5 - solicitar como entrada um texto e exibir como resultado:
+
+qtd de letras
+qtd de caracteres
+qtd de vogais
+qtd de consoantes
