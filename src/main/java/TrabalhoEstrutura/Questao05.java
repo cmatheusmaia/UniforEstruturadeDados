@@ -12,28 +12,49 @@ import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 public class Questao05 {
-	public static void main(String[] args) {
-
-		String vogais = "aeiou";
-        String consoantes = "bcdfghjklmnpqrstvxwyz";
-        int totalVogais = 0, totalConsoantes = 0;
-
-        
-		String nome = "Meu nome e Matheus Maia";
-		System.out.println(nome+". Tamanho de caractere: "+nome.length());
-		String nome2 = nome.replaceAll(" ", "");
-		System.out.println("Quantidade de letras de: "+nome2 + ", tamanho: "+nome2.length());
-
-        
-		int NumeroLetras = nome2.length();
-        for(int i = 0; i < NumeroLetras; i++){
-            if(vogais.indexOf(nome2) >= 0){
-            	System.out.println(totalVogais);
-                 totalVogais++;
-            } else if(consoantes.indexOf(nome2) >= 0){
-            	totalConsoantes++;
-            }
+		
+		public static void main(String[]args){
+			String palavra;
+			String qtLetras;
+			int qtPalavra;
+			int i;
+			int qtVogais =0;
+			int qtConsoantes;
+			@SuppressWarnings("resource")
+			Scanner entrada = new Scanner(System.in);
+			
+			System.out.println("Informe o texto");
+			palavra = entrada.next();
+			
+			// mostrar quantidade de caracteres presente na String
+			qtPalavra = palavra.length();
+			System.out.println("Quantidade de caracteres: "+qtPalavra);
+			
+			// mostrar quantidade de letras na String
+			qtLetras = palavra.replace(" ", "");
+			int qtDLetras = palavra.length();
+			System.out.println("Quantidade de letras: "+qtDLetras);
+			
+			// mostrar quantidade de consoantes na string
+			for (i = 0;i <palavra.length();i++){
+						if(palavra.charAt(i) == 'a'
+			|| palavra.charAt(i) == 'e'
+			|| palavra.charAt(i) == 'i'
+			|| palavra.charAt(i) == 'o'
+			|| palavra.charAt(i) == 'u'
+			|| palavra.charAt(i) == 'A'
+			|| palavra.charAt(i) == 'E'
+			|| palavra.charAt(i) == 'I'
+			|| palavra.charAt(i) == 'O'
+			|| palavra.charAt(i) == 'U'){
+				qtVogais +=1;
+			}
 		}
+			int qtAlfabeth = palavra.length();
+			qtConsoantes = qtAlfabeth - qtVogais;
+			
+			System.out.println("Quantidade de consoantes: "+qtConsoantes);
+			System.out.println("Quantidade de vogais: "+qtVogais);
 	}
 }
-
+	
