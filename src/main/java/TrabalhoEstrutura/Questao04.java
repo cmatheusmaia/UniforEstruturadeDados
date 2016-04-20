@@ -12,8 +12,13 @@ import java.util.Scanner;
 
 public class Questao04 {
 	public static void main (String[]args){
-		String palavra;
+		
+		ChamarMetodos.AvisoAppQ4();
+		// variaveis
 		Scanner entrada = new Scanner(System.in);
+		String palavra;
+		
+		// console
 		System.out.println("Informe a palavra");
 		palavra = entrada.next();
 		

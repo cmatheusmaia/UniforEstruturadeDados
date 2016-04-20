@@ -14,6 +14,7 @@ import javax.swing.JOptionPane;
 public class Questao05 {
 		
 		public static void main(String[]args){
+			ChamarMetodos.AvisoAppQ5();
 			String palavra;
 			String qtLetras;
 			int qtPalavra;

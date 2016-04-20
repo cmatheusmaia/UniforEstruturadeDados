@@ -7,6 +7,8 @@ import java.util.Scanner;
 public class Questao01 {
 
 	    public static void main(String...args) {
+	    	ChamarMetodos.AvisoAppQ1();
+	    	
 	       String palavra;
 	       String checar="";
 	       Scanner entrada = new Scanner(System.in);
@@ -16,9 +18,9 @@ public class Questao01 {
 	        	checar+= palavra.charAt(x);
 	        }
 	        if(checar.equals(palavra)){
-	            System.out.println("A palavra "+palavra+ " é um PALINDROMO");
+	            System.out.println("A palavra "+palavra.toUpperCase()+ " é um PALINDROMO");
 	        }else{
-	            System.out.println("A palavra "+palavra+ " NÃO é um PALINDROMO");;
+	            System.out.println("A palavra "+palavra.toUpperCase()+ " NÃO é um PALINDROMO");;
 	        }
 	    }
 }

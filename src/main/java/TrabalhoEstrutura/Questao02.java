@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Questao02 {
 	public static void main (String...args){
+		ChamarMetodos.AvisoAppQ2();
 		String palavraUm;
 		String palavraDois;
 		Scanner entrada = new Scanner(System.in);
@@ -17,7 +18,7 @@ public class Questao02 {
 		if(palavraUm.equals(palavraDois)){
 			System.out.println("As palavras são iguais!");
 		} else {
-			System.out.println("As palavras não são diferentes :-(");
+			System.out.println("As palavras não são iguais :-(");
 		}
 	}
 }

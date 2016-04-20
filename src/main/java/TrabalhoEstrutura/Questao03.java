@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Questao03 {
 	public static void main(String...args){
+		ChamarMetodos.AvisoAppQ3();
 		String palavraUm;
 		String palavraDois;
 		Scanner entrada = new Scanner(System.in);
