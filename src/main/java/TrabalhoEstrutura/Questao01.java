@@ -11,7 +11,8 @@ public class Questao01 {
 	    	
 	       String palavra;
 	       String checar="";
-	       Scanner entrada = new Scanner(System.in);
+	       @SuppressWarnings("resource")
+		Scanner entrada = new Scanner(System.in);
 	       System.out.println("Informe a palavra");
 	       palavra = entrada.next();
 	        for(int x=palavra.length()-1;x>=0;x--){

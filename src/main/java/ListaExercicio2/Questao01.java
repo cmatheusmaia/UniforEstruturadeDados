@@ -12,5 +12,5 @@ public static void main (String...arg){
 		System.out.println("Digite um número");
 		numero = entrada.nextDouble();
 		
-	}
+}
 }
